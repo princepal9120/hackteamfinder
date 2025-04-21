@@ -33,13 +33,14 @@ const Home = () => {
           </div>
           <div className="lg:w-1/2 w-full max-w-2xl lg:max-w-none mx-auto">
             <div className="relative aspect-video sm:aspect-[4/3] lg:aspect-[16/10]">
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-2xl"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-2xl">
               <img
-                src="https://images.pexels.com/photos/7439/startup-photos.jpg"
+                src={'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80'}
                 alt="Team collaboration"
                 className="rounded-2xl shadow-2xl w-full h-full object-cover"
                 loading="lazy"
               />
+              </div>
             </div>
           </div>
         </div>
